@@ -1,0 +1,33 @@
+@import "~bulma/css/bulma.css";
+
+.has-bg-img{
+    background-image: url("components/picture/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    
+  }
+
+  .has-bg-img::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.footer
+{
+  position:relative;
+  margin:-3em 0 0;
+  height:12em;
+  width:100%;
+  float:none;
+  color:rgb(0, 0, 0);
+  clear:both;
+}
+
